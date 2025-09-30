@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SneakMax</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="nav__header">
+        <div class="conteiner__nav">
+          <h1>SneakMax</h1>
+          <div class="conteiner__hamburger">
+            <ul class="hamburger__list__menu open__hamburger__list">
+              <li><a href="">Каталог</a></li>
+              <li><a href="">О нас</a></li>
+              <li><a href="">Подбор товара</a></li>
+              <li><a href="">Наша команда </a></li>
+              <li><a href="">Доставка и оплата </a></li>
+              <li><a href="">Контакты</a></li>
+              <li>
+                <div class="conteiner__cart">
+                  <a href="#">Корзина </a>
+                  <div class="cart__icon">
+                    <img
+                      loading="lazy"
+                      src="/image/Vector.svg"
+                      alt="iconCart"
+                    />
+                    <span class="cart__counter goods__in__order">0</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <button aria-label="hamburger" class="hamburger_button active">
+              <span></span> <span></span> <span></span>
+            </button>
+          </div>
+
+          <ul class="header__list">
+            <li><a href="">Каталог</a></li>
+            <li><a href="">О нас</a></li>
+            <li><a href="">Подбор товара</a></li>
+            <li><a href="">Наша команда </a></li>
+            <li><a href="">Доставка и оплата </a></li>
+            <li><a href="">Контакты</a></li>
+            <li>
+              <div class="conteiner__cart">
+                <a href="#">Корзина </a>
+                <div class="cart__icon">
+                  <img loading="lazy" src="/image/Vector.svg" alt="IconCart" />
+                  <span class="cart__counter goods__in__order">0</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="header__welcome">
+        <h2>Кроссовки известных брендов с доставкой по России и СНГ</h2>
+        <p>
+          Мы продаем кроссовки брендов Nike, Adidas, Puma, Reebok, Converse и
+          многие другие по низким ценам
+        </p>
+        <div class="conteiner__text__opacity">
+          <p>SneakMax</p>
+        </div>
+        <button
+          class="btn header__welcome__button"
+          aria-label="перейти к покупкам "
+        >
+          Перейти к покупкам
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="section__1">
+        <h2>Каталог</h2>
+        <div class="conteiner__Catalog">
+          <div class="product__selection">
+            <div class="conteiner__open__close__filter">
+              <h2>Подбор по параметрам</h2>
+
+              <button
+                aria-label="показать фильтры "
+                class="btn button__span__close__open__filter"
+              >
+                показать фильтры
+              </button>
+            </div>
+            <div class="conteiner__filter">
+              <div class="conteiner__price__and__gender">
+                <p>Цена, руб</p>
+                <div class="conteiner__input__number">
+                  <input
+                    class="input__number input__min"
+                    type="number"
+                    min="0"
+                    max="5000"
+                    value="0"
+                  />
+                  <span></span>
+                  <input
+                    class="input__number input__max"
+                    type="number"
+                    min="0"
+                    max="5000"
+                    value="10000"
+                  />
+                </div>
+
+                <div class="conteiner__input__range">
+                  <div class="slider-track"></div>
+                  <div class="slider-range" id="slider-range"></div>
+                  <input
+                    type="range"
+                    class="min-range custom__range"
+                    min="0"
+                    max="5000"
+                    value="0"
+                    id="min-range"
+                  />
+                  <input
+                    type="range"
+                    class="max-range custom__range"
+                    min="0"
+                    max="5000"
+                    value="5000"
+                    id="max-range"
+                  />
+                </div>
+                <p class="gender">Пол</p>
+                <div class="conteiner__input__gender">
+                  <div class="conteiner__gender__man">
+                    <input
+                      class="input__gender input__man"
+                      type="checkbox"
+                      name="gender"
+                      id="male"
+                      value="man"
+                    />
+                    <label for="male">Мужской</label>
+                  </div>
+                  <div class="conteiner__gender__woomen">
+                    <input
+                      class="input__gender input__wooman"
+                      type="checkbox"
+                      name="gender"
+                      id="female"
+                      value="wooman"
+                    />
+                    <label for="female">Женский</label>
+                  </div>
+                </div>
+              </div>
+              <div class="conteiner__filter__size">
+                <h3>Размер</h3>
+                <div class="conteiner__size__options">
+                  <label class="size-option">
+                    <input
+                      class="inputCheckbox"
+                      type="checkbox"
+                      name="size"
+                      value="35"
+                    />
+                    <span>35</span>
+                  </label>
+                  <label class="size-option">
+                    <input
+                      class="inputCheckbox"
+                      type="checkbox"
+                      name="size"
+                      value="36"
+                    />
+                    <span>36</span>
+                  </label>
+                  <label class="size-option">
+                    <input
+                      class="inputCheckbox"
+                      type="checkbox"
+                      name="size"
+                      value="37"
+                    />
+                    <span>37</span>
+                  </label>
+                  <label class="size-option">
+                    <input
+                      class="inputCheckbox"
+                      type="checkbox"
+                      name="size"
+                      value="38"
+                    />
+                    <span>38</span>
+                  </label>
+                  <label class="size-option">
+                    <input
+                      class="inputCheckbox"
+                      type="checkbox"
+                      name="size"
+                      value="39"
+                    />
+                    <span>39</span>
+                  </label>
+                  <label class="size-option">
+                    <input
+                      class="inputCheckbox"
+                      type="checkbox"
+                      name="size"
+                      value="40"
+                    />
+                    <span>40</span>
+                  </label>
+                  <label class="size-option">
+                    <input
+                      class="inputCheckbox"
+                      type="checkbox"
+                      name="size"
+                      value="41"
+                    />
+                    <span>41</span>
+                  </label>
+                  <label class="size-option">
+                    <input
+                      class="inputCheckbox"
+                      type="checkbox"
+                      name="size"
+                      value="42"
+                    />
+                    <span>42</span>
+                  </label>
+                  <label class="size-option">
+                    <input
+                      class="inputCheckbox"
+                      type="checkbox"
+                      name="size"
+                      value="43"
+                    />
+                    <span>43</span>
+                  </label>
+                </div>
+                <div class="conteiner__button__inp__checkbox">
+                  <button
+                    aria-label="применить"
+                    class="btn button__input__checkbox__apply"
+                  >
+                    Применить
+                  </button>
+                  <button
+                    aria-label="Сбросить"
+                    class="btn button__input__checkbox__reset"
+                  >
+                    Сбросить
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="conteiner__card__tovar__and__button">
+            <div class="conteiner__card__tovar">
+              <article class="card__tovar">
+                <img
+                  class="imageProduct"
+                  loading="lazy"
+                  src="/image/image__section__1/sneack.webp"
+                  alt="sneak"
+                />
+                <p class="nameProduct">namesneak</p>
+                <span class="priceProduct">0000</span>
+                <div class="conteiner__button__card">
+                  <button
+                    aria-label="показать товар "
+                    class="show__product btn button__card"
+                  >
+                    <img
+                      loading="lazy"
+                      src="/image/image__section__1/button__section__1/Смотреть товар.png"
+                      alt="покозать товар"
+                    />
+                  </button>
+                  <button
+                    aria-label="Добавить в корзину"
+                    class="btn__add__to__cart btn button__card"
+                  >
+                    <img
+                      loading="lazy"
+                      src="/image/image__section__1/button__section__1/Добавить в корзину.png"
+                      alt="add__in__cart"
+                    />
+                  </button>
+                </div>
+              </article>
+            </div>
+            <button aria-label="показать еще" class="btn button__show__more">
+              Показать еще
+            </button>
+          </div>
+          <div class="conteiner__show__modal__overlay">
+            <div class="conteiner__Product__overview">
+              <div class="conteiner__description__and__property__product">
+                <div class="conteiner__description__product">
+                  <div class="conteiner__slider">
+                    <div class="slider">
+                      <img
+                        class="show__product__image"
+                        loading="lazy"
+                        src="/image/imageSneak/cardTovar.webp"
+                        alt="sneak"
+                      />
+                      <div class="conteiner__button__slider__show__modal">
+                        <button
+                          class="button__prev__show__modal button__slider__show__modal btn"
+                        >
+                          &#8656;
+                        </button>
+                        <button
+                          class="button__next__show__modal button__slider__show__modal btn"
+                        >
+                          &#8658;
+                        </button>
+                      </div>
+                    </div>
+                    <div class="conteiner__All__img__slider"></div>
+                  </div>
+                </div>
+                <div class="conteiner__property__product">
+                  <div class="conteiner__number__product">
+                    <p>Артикул: <span class="article__product">8999</span></p>
+                    <p>В наличие: <span class="amount__product">13</span></p>
+                  </div>
+                  <h2 class="title__product__show__modal">Женские кроссовки</h2>
+                  <div class="conteiner__raiting">
+                    <input id="1" class="star__rating" type="radio" />
+                    <label for="1">&#9733;</label>
+                    <input id="2" class="star__rating" type="radio" />
+                    <label for="2">&#9733;</label>
+                    <input id="3" class="star__rating" type="radio" />
+                    <label for="3">&#9733;</label>
+                    <input id="4" class="star__rating" type="radio" />
+                    <label for="4">&#9733;</label>
+                    <input id="5" class="star__rating" type="radio" />
+                    <label for="5">&#9733;</label>
+                  </div>
+                  <div class="conteiner__size__range">
+                    <h2>Выберите размер</h2>
+                    <div class="conteiner__show__modal__select__sizi"></div>
+                  </div>
+                  <div class="conteiner__price__product">
+                    <span class="new__price">15000</span>
+                    <span class="pld__price">20000</span>
+                  </div>
+                  <button
+                    aria-label="заказать "
+                    class="button__order__show__modal"
+                  >
+                    Заказать
+                  </button>
+                  <div class="conteiner__additional__offer">
+                    <h3><span>&check;</span>Бесплатная доставка до двери</h3>
+                    <h3><span>&check;</span>Оплата заказа при получение</h3>
+                    <h3><span>&check;</span>Обмен в течение двух недель</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="conteiner__description__and__property">
+                <div class="conteiner__description">
+                  <h3>Описание</h3>
+                  <p>
+                    Кроссовки Nike Blazer Mid '77 Vintage Suede с винтажной
+                    подошвой возрождают стиль баскетбольных моделей Nike
+                    прошлого, создавая впечатление, что они хранились в шкафу
+                    долгие годы.
+                  </p>
+                </div>
+                <div class="conteiner__property">
+                  <h4>Характеристики</h4>
+                  <ul>
+                    <li>Пол: <span>men</span></li>
+                    <li>цвета: <span>men</span></li>
+                    <li>состав: <span>men</span></li>
+                    <li>Страна:<span>men</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="conteiner__response">
+                <h2>none text</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section__2">
+        <div class="conteoner__span__wheel">
+          <span class="wheel__1">-</span>
+          <span class="wheel__2"> </span>
+          <span class="wheel__3__mini"></span>
+        </div>
+        <div class="conteiner__description__about__and__img__photo">
+          <div class="conteiner__Description__about">
+            <h2>Пара слов о нас</h2>
+            <p>
+              Спорт держит нас в форме. Учит дисциплине. Объединяет нас. Через
+              спорт мы можем менять жизни. В том числе с помощью воодушевляющих
+              историй спортсменов. Чтобы помочь тебе подняться и двигаться
+              вперед.
+            </p>
+          </div>
+          <img
+            loading="lazy"
+            class="sec__2__img"
+            src="/image/image__section__2/section__2__img.webp"
+            alt="sec2Image"
+          />
+        </div>
+      </section>
+
+      <section class="section__3">
+        <div class="conteiner__selection__sneak">
+          <div class="conteiner__quetion__slide active">
+            <h2>Мы подберем идеальную пару для вас</h2>
+            <p>
+              Ответьте на три вопроса и мы вышлем каталог с самыми подходящими
+              для вас моделями
+            </p>
+            <span class="span__line__section__3"></span>
+
+            <div class="conteiner__question__sneak">
+              <h3 class="h3__question__sneak">
+                Какой тип кроссовок рассматриваете?
+              </h3>
+              <div class="conteiner__card__tovar__sneak">
+                <div class="card__tovar__sneak">
+                  <img
+                    id="testImage"
+                    loading="lazy"
+                    src="/image/image__section__3/sneak__kedi.webp"
+                    alt="sneakKedi"
+                  />
+                  <div class="conteiner__section__3__input">
+                    <input
+                      class="section__3__input input__slide__1"
+                      type="checkbox"
+                      id="sneak__kedi"
+                    />
+                    <label for="sneak__kedi">Кеды</label>
+                  </div>
+                </div>
+                <div class="card__tovar__sneak">
+                  <img
+                    loading="lazy"
+                    src="/image/image__section__3/sneak__boots.webp"
+                    alt="sneakBoots"
+                  />
+                  <div class="conteiner__section__3__input">
+                    <input
+                      class="section__3__input input__slide__1"
+                      type="checkbox"
+                      id="sneak__boots"
+                    />
+                    <label for="sneak__boots">Бутсы</label>
+                  </div>
+                </div>
+                <div class="card__tovar__sneak">
+                  <img
+                    loading="lazy"
+                    src="/image/image__section__3/sneak__run.webp"
+                    alt="sneakRun"
+                  />
+                  <div class="conteiner__section__3__input">
+                    <input
+                      class="section__3__input input__slide__1"
+                      type="checkbox"
+                      id="sneak__run"
+                    />
+                    <label for="sneak__run">Беговые</label>
+                  </div>
+                </div>
+                <div class="card__tovar__sneak">
+                  <img
+                    loading="lazy"
+                    src="/image/image__section__3/sneak__unisex.webp"
+                  />
+                  <div class="conteiner__section__3__input">
+                    <input
+                      class="section__3__input input__slide__1"
+                      type="checkbox"
+                      id="sneak__unisex"
+                    />
+                    <label for="sneak__unisex">Унисекс</label>
+                  </div>
+                </div>
+                <div class="card__tovar__sneak">
+                  <img
+                    loading="lazy"
+                    src="/image/image__section__3/sneak__woomen.webp"
+                    alt="sneakWoomen"
+                  />
+                  <div class="conteiner__section__3__input">
+                    <input
+                      class="section__3__input input__slide__1"
+                      type="checkbox"
+                      id="sneak__woomen"
+                    />
+                    <label for="sneak__woomen">Женские</label>
+                  </div>
+                </div>
+                <div class="card__tovar__sneak">
+                  <img
+                    loading="lazy"
+                    src="/image/image__section__3/sneak__man.webp"
+                    alt="sneakMan"
+                  />
+                  <div class="conteiner__section__3__input">
+                    <input
+                      class="section__3__input input__slide__1"
+                      type="checkbox"
+                      id="sneak__man"
+                    />
+                    <label for="sneak__man">Мужские</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="conteiner__slider__page">
+              <span class="span__line__section__3"></span>
+            </div>
+          </div>
+          <div class="conteiner__quetion__slide">
+            <h2>Мы подберем идеальную пару для вас</h2>
+            <p>
+              Ответьте на три вопроса и мы вышлем каталог с самыми подходящими
+              для вас моделями
+            </p>
+            <span class="span__line__section__3"></span>
+            <div class="conteiner__question__sneak__slide_2">
+              <h3 class="h3__question__sneak">Какой размер вам подойдет</h3>
+              <div class="conteiner__input__slide_2">
+                <div class="input__slide__2 conteiner__section__3__input">
+                  <input
+                    class="input__slide2 section__3__input"
+                    id="36"
+                    type="checkbox"
+                  />
+                  <label for="36">менее 36</label>
+                </div>
+                <div class="input__slide__2 conteiner__section__3__input">
+                  <input
+                    class="section__3__input input__slide2"
+                    id="36-38"
+                    type="checkbox"
+                  />
+                  <label for="36-38">36-38</label>
+                </div>
+                <div class="input__slide__2 conteiner__section__3__input">
+                  <input
+                    class="section__3__input input__slide2"
+                    id="39-41"
+                    type="checkbox"
+                  />
+                  <label for="39-41">39-41</label>
+                </div>
+                <div class="input__slide__2 conteiner__section__3__input">
+                  <input
+                    class="section__3__input input__slide2"
+                    id="42-44"
+                    type="checkbox"
+                  />
+                  <label for="42-44">42-44</label>
+                </div>
+                <div class="input__slide__2 conteiner__section__3__input">
+                  <input
+                    class="section__3__input input__slide2"
+                    id="45"
+                    type="checkbox"
+                  />
+                  <label for="45">45 и больше</label>
+                </div>
+              </div>
+              <img
+                loading="lazy"
+                src="/image/image__section__3/slider__section__3/slider__sneak.webp"
+                alt="слайдер кроссовки"
+              />
+            </div>
+
+            <div class="conteiner__slider__page">
+              <span class="span__line__section__3"></span>
+            </div>
+          </div>
+          <div class="conteiner__quetion__slide">
+            <h2>Мы подберем идеальную пару для вас</h2>
+            <p>
+              Ответьте на три вопроса и мы вышлем каталог с самыми подходящими
+              для вас моделями
+            </p>
+            <span class="span__line__section__3"></span>
+
+            <div class="conteiner__question__sneak__slide_3">
+              <h3 class="h3__question__sneak">Уточните какие-либо моменты</h3>
+              <div class="conteiner__input__slide__3">
+                <textarea
+                  class="text__area__slide__3"
+                  placeholder="Введите сообщение "
+                  name=""
+                  id=""
+                ></textarea>
+              </div>
+            </div>
+
+            <div class="conteiner__slider__page">
+              <span class="span__line__section__3"></span>
+            </div>
+          </div>
+          <div class="conteiner__quetion__slide">
+            <h2>Ваша подборка готова</h2>
+            <p>
+              Оставьте свои контактные данные, чтобы бы мы могли отправить
+              подготовленный для вас каталог
+            </p>
+            <span class="span__line__section__3"></span>
+
+            <div class="conteiner__question__sneak__slide_4">
+              <div class="slider__4__conteiner">
+                <h2>Получить предложение</h2>
+                <h3>Получите подборку подходящих для вас моделей на почту</h3>
+                <form class="form__slide__4" action="">
+                  <input
+                    class="input__form__slider inputNameSlider"
+                    placeholder="Ваше имя"
+                    type="text"
+                  />
+                  <input
+                    class="input__form__slider inputEmailSlider"
+                    placeholder="E-mail"
+                    type="email"
+                  />
+                  <button aria-label="получить" class="btn slider__4__button">
+                    Получить
+                  </button>
+                </form>
+              </div>
+              <div class="conteiner__form__img">
+                <img
+                  loading="lazy"
+                  class="slide__4__img"
+                  src="/image/image__section__3/slider__section__3/iPhone 11 Pro.png"
+                  alt="iphone"
+                />
+
+                <img
+                  loading="lazy"
+                  class="slide__4__img__2"
+                  src="/image/image__section__3/slider__section__3/отпр.png"
+                  alt="telLogo"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="conteiner__page">
+            <p><span class="span__page">1</span> из 3</p>
+            <h3 class="alertSlide">Вы ничего не выбрали</h3>
+
+            <button aria-label="следующая страница " class="btn button__page">
+              Следующий шаг
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section__4">
+        <div class="conteiner__our__team">
+          <h2>Наша команда</h2>
+          <div class="card__our__team">
+            <div class="our__team">
+              <img
+                loading="lazy"
+                src="/image/image__section__4/admin__1.webp"
+                alt="adminPhoto"
+              />
+              <h3>Autor</h3>
+              <p>Администратор</p>
+            </div>
+            <div class="our__team">
+              <img
+                loading="lazy"
+                src="/image/image__section__4/admin__2.webp"
+                alt="adminPhoto2"
+              />
+              <h3>Autor</h3>
+              <p>Администратор</p>
+            </div>
+            <div class="our__team">
+              <img
+                loading="lazy"
+                src="/image/image__section__4/admin__3.webp"
+                alt="AdminPhoto3"
+              />
+              <h3>Autor</h3>
+              <p>Администратор</p>
+            </div>
+            <div class="our__team">
+              <img
+                loading="lazy"
+                src="/image/image__section__4/admin__4.webp"
+                alt="AdminPhoto4"
+              />
+              <h3>Autor</h3>
+              <p>Администратор</p>
+            </div>
+            <div class="our__team">
+              <img
+                loading="lazy"
+                src="/image/image__section__4/admin__5.webp"
+                alt="AdminPhoto5"
+              />
+              <h3>Autor</h3>
+              <p>Администратор</p>
+            </div>
+            <div class="our__team">
+              <img
+                loading="lazy"
+                src="/image/image__section__4/admin__6.webp"
+                alt="AdminPhoto6"
+              />
+              <h3>Autor</h3>
+              <p>Администратор</p>
+            </div>
+          </div>
+        </div>
+        <div class="conteiner__span__section__4">
+          <span class="span__red"></span>
+          <span class="span__wheel__1"></span>
+          <span class="span__wheel__2"></span>
+        </div>
+      </section>
+      <section class="section__5">
+        <h2 class="title__section__5">Часто задаваемые вопросы</h2>
+        <div class="conteiner__ask__questions">
+          <span class="line"></span>
+          <div class="questions__conteiner__scroll">
+            <div class="questions">
+              <div class="conteiner__question__and__button">
+                <h3>Вопрос <span class="questions__number"> 0</span></h3>
+                <button
+                  aria-label="кнопка плюс"
+                  class="btn btn__plus btn__plus active"
+                >
+                  <img
+                    loading="lazy"
+                    src="/image/image__section__5/btn__plus.png"
+                    alt="buttonPlus"
+                  />
+                </button>
+              </div>
+              <div class="conteiner__show__text">
+                <p>
+                  А это ответ 1: в комплексе функционируют 6 детских садов с
+                  площадками, воспитателями и всякими другими людьми
+                </p>
+              </div>
+              <span class="line"></span>
+            </div>
+            <div class="questions">
+              <div class="conteiner__question__and__button">
+                <h3>Вопрос <span class="questions__number"> 0</span></h3>
+                <button aria-label="кнопка плюс" class="btn btn__plus">
+                  <img
+                    loading="lazy"
+                    src="/image/image__section__5/btn__plus.png"
+                    alt="ButtonPlus"
+                  />
+                </button>
+              </div>
+              <div class="conteiner__show__text hidden">
+                <p>
+                  А это ответ 1: в комплексе функционируют 6 детских садов с
+                  площадками, воспитателями и всякими другими людьми
+                </p>
+              </div>
+              <span class="line"></span>
+            </div>
+            <div class="questions">
+              <div class="conteiner__question__and__button">
+                <h3>Вопрос <span class="questions__number"> 0</span></h3>
+                <button aria-label="кнопка плюс" class="btn btn__plus">
+                  <img
+                    loading="lazy"
+                    src="/image/image__section__5/btn__plus.png"
+                    alt="ButtonPlus"
+                  />
+                </button>
+              </div>
+              <div class="conteiner__show__text hidden">
+                <p>
+                  А это ответ 1: в комплексе функционируют 6 детских садов с
+                  площадками, воспитателями и всякими другими людьми
+                </p>
+              </div>
+              <span class="line"></span>
+            </div>
+            <div class="questions">
+              <div class="conteiner__question__and__button">
+                <h3>Вопрос <span class="questions__number"> 0</span></h3>
+                <button aria-label="кнопка плюс" class="btn btn__plus">
+                  <img
+                    loading="lazy"
+                    src="/image/image__section__5/btn__plus.png"
+                    alt="ButtonPlus"
+                  />
+                </button>
+              </div>
+              <div class="conteiner__show__text hidden">
+                <p>
+                  А это ответ 1: в комплексе функционируют 6 детских садов с
+                  площадками, воспитателями и всякими другими людьми
+                </p>
+              </div>
+              <span class="line"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="conteiner__contact__map">
+        <div class="conteiner__contact__and__map">
+          <div class="conteiner__contact">
+            <h2 class="contact">Контакты</h2>
+            <div class="contener__main__office">
+              <div class="modal__wrapper">
+                <h3 class="title__office">
+                  Главный офис
+                  <button aria-label="знак вопроса" class="main__office__btn">
+                    ?
+                  </button>
+                </h3>
+                <div class="conteiner__show__modal">
+                  <h3>
+                    Адрес и телефон для корреспонденции, инвесторов. Вопросы о
+                    доставке, качестве обслуживания и товара просьба задавать в
+                    отдел продаж
+                  </h3>
+                </div>
+              </div>
+
+              <p class="number">+7 800 787 89 89</p>
+              <p class="adress">г. Санкт-Петербург, Комсомольская, 43 к1</p>
+            </div>
+            <div class="contener__Sales__department">
+              <p class="title__office">Отед продаж</p>
+              <p class="number">+7 800 787 89 89</p>
+              <p class="adress">г. Санкт-Петербург, Комсомольская, 43 к1</p>
+            </div>
+
+            <div class="conteiner__social__links">
+              <a class="social__links" href=""
+                ><img
+                  loading="lazy"
+                  src="/image/footer/logoSocialLink/icon__insta.svg"
+                  alt="IconInstagram"
+              /></a>
+              <a class="social__links" href=""
+                ><img
+                  loading="lazy"
+                  src="/image/footer/logoSocialLink/icon__vk.svg"
+                  alt="IconVK"
+              /></a>
+            </div>
+          </div>
+          <div class="conteiner__map">
+            <img
+              loading="lazy"
+              src="/image/footer/photoMap/Rectangle 32.webp"
+              alt="PhotoMap"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="footer__conteiner__qusteion">
+        <form class="modal__window__quation">
+          <h2>Есть вопросы?</h2>
+          <p>Заполните форму и наш менеджер свяжется с вами</p>
+          <input
+            type="hidden"
+            name="acces_key"
+            value="9d449e25d3744b83bd15e28a95d50a9c"
+          />
+          <input
+            type="text"
+            name="name"
+            placeholder="Ваше Имя"
+            class="input__form__footer__userName"
+            type="text"
+          />
+          <input
+            name="phone"
+            placeholder="Номер телефона "
+            class="input__form__footer__userTel"
+            type="tel"
+            maxlength="12"
+            pattern="^\+7\s?[0-9]{3}\s?[0-9]{3}\s?[0-9]{2}\s?[0-9]{2}$"
+            required
+          />
+
+          <button
+            type="submit"
+            aria-label="отправить"
+            class="btn button__form__footer"
+          >
+            Отправить
+          </button>
+        </form>
+        <div class="instagramm__inage">
+          <img
+            loading="lazy"
+            src="/image/footer/logoSocialLink/instagramm__logo.png"
+            alt="LogoInstagramm"
+          />
+          <div class="conteiner__instagramm__image">
+            <div class="conteiner__left__column image__col">
+              <img
+                loading="lazy"
+                src="/image/footer/photo__instagramm/Rectangle 37.webp"
+                alt="photoInstagramm1"
+              />
+              <img
+                loading="lazy"
+                src="/image/footer/photo__instagramm/Rectangle 39.webp"
+                alt="photoInstagramm2"
+              />
+            </div>
+            <div class="conteiner__centnr__column">
+              <img
+                loading="lazy"
+                src="/image/footer/photo__instagramm/Rectangle 38.webp"
+                alt="photoInstagramm3"
+              />
+            </div>
+            <div class="conteiner__rigth__column image__col">
+              <img
+                loading="lazy"
+                src="/image/footer/photo__instagramm/Rectangle 40.webp"
+                alt="photoInstagramm4"
+              />
+              <img
+                loading="lazy"
+                src="/image/footer/photo__instagramm/Rectangle 41.webp"
+                alt="photoInstagramm5"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="nav_footer">
+        <div class="conteiner__nav__footer">
+          <div class="conteiner__logo__header">
+            <h2>SneakMax</h2>
+          </div>
+          <ul>
+            <li><a href="">Каталог</a></li>
+            <li><a href="">О нас</a></li>
+            <li><a href="">Подбор товара</a></li>
+            <li><a href="">Наша команда </a></li>
+            <li><a href="">Доставка и оплата </a></li>
+            <li><a href="">Контакты</a></li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <div
+      class="conteiner__show__modal__overlay conteiner__overlay show__modal__cart__overlay"
+    >
+      <div class="show__modal__Cart">
+        <div class="modal__conteiner__Card__tovar"></div>
+        <div class="conteiner__Allprice__and_button">
+          <div class="conteiner__all__price">
+            <h3>Итого:</h3>
+            <span class="modal__currentPrice">2332 P </span>
+          </div>
+          <button aria-label="перейти в корзину " class="btn shopp__cart">
+            Перейти в корзину
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="conteiner__order__registretion">
+      <div class="conteiner__order__number">
+        <h2>Оформление заказа</h2>
+        <p>Заказ №<span>000012</span></p>
+      </div>
+      <div class="conteiner__result__cart">
+        <h2>
+          Товаров в заказе:
+          <span class="products__in_order goods__in__order"> 0</span>
+        </h2>
+        <h3>
+          Общая сумма заказа:
+          <span class="all__result__sum resultSum"> 0000</span> p
+        </h3>
+        <button aria-label="состав заказа " class="button__order__delivery">
+          Состав заказа
+          <img
+            loading="lazy"
+            class="open__detalis open__detalis active"
+            src="/image/imageshowModal/down-arrow 1.svg"
+            alt="downArrow"
+          />
+        </button>
+      </div>
+      <div class="product">
+        <div class="conteiner_order_registration__card__tovar"></div>
+      </div>
+      <form class="registration__form" action="">
+        <input placeholder="Ваше Имя" type="text" />
+        <input placeholder="Номер телефона" type="tel" />
+        <input placeholder="Email" type="email" />
+        <button
+          aria-label="оформить заказ"
+          class="button_registratin_form button__form__footer"
+        >
+          Оформить заказ
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

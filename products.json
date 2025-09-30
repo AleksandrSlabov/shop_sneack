@@ -1,0 +1,305 @@
+[
+  {
+    "id": 1,
+    "name": "Кроссовки кеды",
+    "price": 2000,
+    "gender": "man",
+    "category": "sneakers",
+    "collection": "Kedi",
+    "article": "00023",
+    "size": [39, 40, 41, 42, 43],
+    "imageUrl": "/image/image__section__3/sneak__kedi.webp",
+    "imageSlider": [
+      "/image/showModalSlider/kedi.webp",
+      "/image/showModalSlider/kedi2.jpg",
+      "/image/showModalSlider/kedi3.jpg",
+      "/image/showModalSlider/kedi4.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Бутсы футбольные",
+    "price": 2300,
+    "gender": "man",
+    "category": "Boots",
+    "collection": "Sport",
+    "article": "00024",
+    "size": [37, 49, 41, 42, 43],
+    "imageUrl": "/image/image__section__3/sneak__boots.webp",
+    "imageSlider": [
+      "/image/showModalSlider/boots/boots1.jpeg",
+      "/image/showModalSlider/boots/boots2.jpeg",
+      "/image/showModalSlider/boots/boots3.jpeg",
+      "/image/showModalSlider/boots/boots4.jpeg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Кроссовки Зимние",
+    "price": 2000,
+    "gender": "man",
+    "category": "Man",
+    "collection": "Winter",
+    "article": "00025",
+    "size": [38, 40, 41, 42, 43],
+    "imageUrl": "/image/image__section__3/sneak__man.webp",
+    "imageSlider": [
+      "/image/showModalSlider/winter/winter1.jpg",
+      "/image/showModalSlider/winter/winter2.jpg",
+      "/image/showModalSlider/winter/winter3.jpg",
+      "/image/showModalSlider/winter/winter4.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Беговые кроссовки",
+    "price": 5000,
+    "gender": "man",
+    "article": "00026",
+    "category": "Run",
+    "collection": "Sport",
+    "size": [37, 38, 39, 41, 44],
+    "imageUrl": "/image/image__section__3/sneak__run.webp",
+    "imageSlider": [
+      "/image/showModalSlider/run/run1.jpg",
+      "/image/showModalSlider/run/run2.jpg",
+      "/image/showModalSlider/run/run3.jpg",
+      "/image/showModalSlider/run/run4.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Беговые кроссовки",
+    "price": 2700,
+    "gender": "man",
+    "category": "Run",
+    "collection": "Sport",
+    "article": "00026",
+    "size": [37, 38, 39, 40, 41],
+    "imageUrl": "/image/image__section__3/sneak__run.webp",
+    "imageSlider": [
+      "/image/showModalSlider/run/run1.jpg",
+      "/image/showModalSlider/run/run2.jpg",
+      "/image/showModalSlider/run/run3.jpg",
+      "/image/showModalSlider/run/run4.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Кроссовки Зимние",
+    "price": 2900,
+    "gender": "man",
+    "category": "Man",
+    "collection": "Winter",
+    "article": "00025",
+    "size": [38, 42, 43, 44, 45],
+    "imageUrl": "/image/image__section__3/sneak__man.webp",
+    "imageSlider": [
+      "/image/showModalSlider/winter/winter1.jpg",
+      "/image/showModalSlider/winter/winter2.jpg",
+      "/image/showModalSlider/winter/winter3.jpg",
+      "/image/showModalSlider/winter/winter4.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Бутсы футбольные",
+    "price": 3200,
+    "gender": "man",
+    "category": "Boots",
+    "collection": "Sport",
+    "article": "00024",
+    "size": [35, 38, 39, 40, 44],
+    "imageUrl": "/image/image__section__3/sneak__boots.webp",
+    "imageSlider": [
+      "/image/showModalSlider/boots/boots1.jpeg",
+      "/image/showModalSlider/boots/boots2.jpeg",
+      "/image/showModalSlider/boots/boots3.jpeg",
+      "/image/showModalSlider/boots/boots4.jpeg"
+    ]
+  },
+
+  {
+    "id": 8,
+    "name": "Беговые кроссовки ",
+    "price": 2200,
+    "gender": "wooman",
+    "category": "Run",
+    "collection": "Sport",
+    "article": "00026",
+    "size": [36, 38, 39, 40, 43],
+    "imageUrl": "/image/image__section__3/sneak__run.webp",
+    "imageSlider": [
+      "/image/showModalSlider/run/run1.jpg",
+      "/image/showModalSlider/run/run2.jpg",
+      "/image/showModalSlider/run/run3.jpg",
+      "/image/showModalSlider/run/run4.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Кроссовки кеды",
+    "price": 4000,
+    "gender": "wooman",
+    "category": "Kedi",
+    "collection": "Sport",
+    "article": "00023",
+    "size": [37, 38, 39, 40, 41],
+    "imageUrl": "/image/image__section__3/sneak__kedi.webp",
+    "imageSlider": [
+      "/image/showModalSlider/kedi.webp",
+      "/image/showModalSlider/kedi2.jpg",
+      "/image/showModalSlider/kedi3.jpg",
+      "/image/showModalSlider/kedi4.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Кроссовки Зимние",
+    "price": 2500,
+    "gender": "wooman",
+    "category": "sneakers",
+    "collection": "Winter",
+    "article": "00025",
+    "size": [35, 36, 39, 44, 45],
+    "imageUrl": "/image/image__section__3/sneak__woomen.webp",
+    "imageSlider": [
+      "/image/showModalSlider/winter/winter1.jpg",
+      "/image/showModalSlider/winter/winter2.jpg",
+      "/image/showModalSlider/winter/winter3.jpg",
+      "/image/showModalSlider/winter/winter4.jpg"
+    ]
+  },
+
+  {
+    "id": 11,
+    "name": "Кроссовки унисекс",
+    "price": 2400,
+    "gender": "wooman",
+    "category": "unisex",
+    "collection": "Winter",
+    "article": "00033",
+    "size": [35, 36, 37, 41, 44],
+    "imageUrl": "/image/image__section__3/sneak__unisex.webp"
+  },
+  {
+    "id": 12,
+    "name": "Кроссовки кеды",
+    "price": 2000,
+    "gender": "man",
+    "category": "sneakers",
+    "collection": "Sport",
+    "article": "00023",
+
+    "size": [35, 36, 39, 44, 45],
+    "imageUrl": "/image/image__section__3/sneak__kedi.webp",
+    "imageSlider": [
+      "/image/showModalSlider/kedi.webp",
+      "/image/showModalSlider/kedi2.jpg",
+      "/image/showModalSlider/kedi3.jpg",
+      "/image/showModalSlider/kedi4.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Бутсы футбольные",
+    "price": 2300,
+    "gender": "man",
+    "category": "Boots",
+    "collection": "Sport",
+    "article": "00024",
+    "size": [35, 36, 39, 40, 42],
+    "imageUrl": "/image/image__section__3/sneak__boots.webp",
+    "imageSlider": [
+      "/image/showModalSlider/boots/boots1.jpeg",
+      "/image/showModalSlider/boots/boots2.jpeg",
+      "/image/showModalSlider/boots/boots3.jpeg",
+      "/image/showModalSlider/boots/boots4.jpeg"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Кроссовки Зимние",
+    "price": 2000,
+    "gender": "man",
+    "category": "Man",
+    "collection": "Winter",
+    "article": "00025",
+    "size": [35, 36, 37, 41, 42],
+    "imageUrl": "/image/image__section__3/sneak__man.webp",
+    "imageSlider": [
+      "/image/showModalSlider/winter/winter1.jpg",
+      "/image/showModalSlider/winter/winter2.jpg",
+      "/image/showModalSlider/winter/winter3.jpg",
+      "/image/showModalSlider/winter/winter4.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Беговые кроссовки ",
+    "price": 5000,
+    "gender": "man",
+    "article": "00026",
+    "category": "Run",
+    "collection": "Sport",
+    "size": [35, 36, 37, 42, 45],
+    "imageUrl": "/image/image__section__3/sneak__run.webp",
+    "imageSlider": [
+      "/image/showModalSlider/run/run1.jpg",
+      "/image/showModalSlider/run/run2.jpg",
+      "/image/showModalSlider/run/run3.jpg",
+      "/image/showModalSlider/run/run4.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Беговые кроссовки ",
+    "price": 2200,
+    "gender": "wooman",
+    "category": "Run",
+    "collection": "Sport",
+    "article": "00026",
+    "size": [35, 36, 37, 41, 45],
+    "imageUrl": "/image/image__section__3/sneak__run.webp",
+    "imageSlider": [
+      "/image/showModalSlider/run/run1.jpg",
+      "/image/showModalSlider/run/run2.jpg",
+      "/image/showModalSlider/run/run3.jpg",
+      "/image/showModalSlider/run/run4.jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Кроссовки кеды",
+    "price": 4000,
+    "gender": "wooman",
+    "category": "Kedi",
+    "collection": "Sport",
+    "article": "00023",
+    "size": [35, 38, 39, 44, 45],
+    "imageUrl": "/image/image__section__3/sneak__kedi.webp",
+    "imageSlider": [
+      "/image/showModalSlider/kedi.webp",
+      "/image/showModalSlider/kedi2.jpg",
+      "/image/showModalSlider/kedi3.jpg",
+      "/image/showModalSlider/kedi4.jpg"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Кроссовки Зимние",
+    "price": 2500,
+    "gender": "wooman",
+    "category": "sneakers",
+    "collection": "Winter",
+    "article": "00025",
+    "size": [35, 36, 37, 44, 45],
+    "imageUrl": "/image/image__section__3/sneak__woomen.webp",
+    "imageSlider": [
+      "/image/showModalSlider/winter/winter1.jpg",
+      "/image/showModalSlider/winter/winter2.jpg",
+      "/image/showModalSlider/winter/winter3.jpg",
+      "/image/showModalSlider/winter/winter4.jpg"
+    ]
+  }
+]
