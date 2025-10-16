@@ -84,6 +84,8 @@ State management для корзины и фильтров
 🎯 Основной функционал
 🛒 Умная корзина покупок
 Динамическое добавление/удаление товаров
+<img width="1264" height="642" alt="SPASneack3" src="https://github.com/user-attachments/assets/2828a5d2-edcf-4ac7-80e6-e18a63330ba1" />
+<img width="1321" height="537" alt="screenSPASneck1" src="https://github.com/user-attachments/assets/d435cc30-caf9-4a74-8991-86a2b5ef1f4b" />
 
 Выбор конкретных размеров для каждого товара
 
